@@ -56,7 +56,7 @@ function checkMatch() {
       document.body.appendChild(h1);
     }
   } else {
-    // after showing both, ait 2 seconds then hide both
+    // after showing both, wait 2 seconds then hide both
     console.log("Not correct! The images do not match.");
     setTimeout(function () {
       firstImage.src = "Moon.gif";
